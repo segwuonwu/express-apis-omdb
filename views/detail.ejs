@@ -1,2 +1,13 @@
 <% // Render individual movie details here %>
-<% // This is how to do comments in EJS, by the way... %>
+    <% // This is how to do comments in EJS, by the way... %>
+
+        <h1>
+            <%= movie.Title %>
+        </h1>
+        <h3>
+            <%= movie.Year %>
+        </h3>
+        <img src="<%= movie.Poster %>" alt="poster">
+        <p>
+            <%=movie.Plot %>
+        </p>
